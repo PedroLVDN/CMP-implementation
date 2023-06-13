@@ -1,0 +1,267 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2023-02-21 16:32:26",
+    "containerVersion": {
+        "path": "accounts/6073729166/containers/102998122/versions/2",
+        "accountId": "6073729166",
+        "containerId": "102998122",
+        "containerVersionId": "2",
+        "name": "CMP Workshop Starter Container",
+        "container": {
+            "path": "accounts/6073729166/containers/102998122",
+            "accountId": "6073729166",
+            "containerId": "102998122",
+            "name": "CMP Starter Container",
+            "publicId": "GTM-TSHC4DQ",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1676994145390",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6073729166/containers/102998122/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": false,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true
+            },
+            "tagIds": [
+                "GTM-TSHC4DQ"
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "6073729166",
+                "containerId": "102998122",
+                "tagId": "3",
+                "name": "Google Analytics Sample Tag",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script>console.log(\"I am just a placeholder tag for Google Analytics. You should only see this statement in the console if you have agreed to Marketing tracking\")</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1676994251601",
+                "firingTriggerId": [
+                    "2147479573"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6073729166",
+                "containerId": "102998122",
+                "tagId": "4",
+                "name": "Hotjar Sample Tag",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script>console.log(\"I am just a placeholder tag for Hotjar. You should only see this statement in the console if you have agreed to Marketing tracking\")</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1676994368235",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6073729166",
+                "containerId": "102998122",
+                "tagId": "6",
+                "name": "Google Analytics ECommerce Sample Tag",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script>console.log(\"I am just a placeholder tag for Google Analytics ECommerce Tracking. You should only see this statement in the console if you have agreed to Marketing tracking\")</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1676994475043",
+                "firingTriggerId": [
+                    "5"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6073729166",
+                "containerId": "102998122",
+                "tagId": "8",
+                "name": "Chatbot Sample Tag",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script>console.log(\"I am just a placeholder tag for a chatbot. You should only see this statement in the console if you have agreed to functional technologies\")</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1676996911137",
+                "firingTriggerId": [
+                    "7"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6073729166",
+                "containerId": "102998122",
+                "triggerId": "5",
+                "name": "Buy Button Click Trigger",
+                "type": "CLICK",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click ID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "buy-button"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1676994468486"
+            },
+            {
+                "accountId": "6073729166",
+                "containerId": "102998122",
+                "triggerId": "7",
+                "name": "Chatbot Timer Trigger",
+                "type": "TIMER",
+                "autoEventFilter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page Path}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "/"
+                            }
+                        ]
+                    }
+                ],
+                "eventName": {
+                    "type": "TEMPLATE",
+                    "value": "gtm.timer"
+                },
+                "interval": {
+                    "type": "TEMPLATE",
+                    "value": "3000"
+                },
+                "limit": {
+                    "type": "TEMPLATE",
+                    "value": "1"
+                },
+                "fingerprint": "1676996874573"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6073729166",
+                "containerId": "102998122",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "6073729166",
+                "containerId": "102998122",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "6073729166",
+                "containerId": "102998122",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "6073729166",
+                "containerId": "102998122",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "6073729166",
+                "containerId": "102998122",
+                "type": "EVENT",
+                "name": "Event"
+            },
+            {
+                "accountId": "6073729166",
+                "containerId": "102998122",
+                "type": "CLICK_ID",
+                "name": "Click ID"
+            }
+        ],
+        "fingerprint": "1676997122458",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6073729166/containers/102998122/versions/2?apiLink=version"
+    }
+}
